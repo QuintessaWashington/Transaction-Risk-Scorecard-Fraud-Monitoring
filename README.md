@@ -179,7 +179,9 @@ Indicators include:
 
 Each indicator contributes to an overall Transaction Risk Score.
 
-## Transaction Risk Score Engine
+## Transaction Risk Scorecard
+
+[View transaction risk scorecard_table query](https://github.com/QuintessaWashington/Transaction-Risk-Scorecard-Fraud-Monitoring/blob/main/03_risk_scorecard_table.sql)
 
 A weighted scoring model was developed to prioritize transactions for
 fraud operations.
