@@ -117,8 +117,8 @@ Examples include:
 
 -   Fraud probability modeling
 
-This approach creates a dataset that behaves more like a production
-fraud environment while protecting sensitive financial information.
+This approach creates a dataset that more closely resembles a production fraud environment while protecting sensitive financial information.
+**[Download the Synthetic Database Tables](https://github.com/QuintessaWashington/Transaction-Risk-Scorecard-Fraud-Monitoring/blob/main/Database_Tables.zip)**
 
 ## Exploratory Data Analysis
 
