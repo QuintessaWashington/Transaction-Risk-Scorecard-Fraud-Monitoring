@@ -80,6 +80,8 @@ Monitoring Dashboard
 
 ## Dataset Overview
 
+[View database creation queries](https://github.com/QuintessaWashington/Transaction-Risk-Scorecard-Fraud-Monitoring/blob/main/01_database_schema.sql)
+
 |Metric | Value|
 |--- | ---|
 |Customers| 8,325 |
@@ -88,10 +90,10 @@ Monitoring Dashboard
 |Total Transaction Volume | $20.8 Million | 
 |Industry | Buy Now, Pay Later (BNPL) |
 
-[View database creation queries](https://github.com/QuintessaWashington/Transaction-Risk-Scorecard-Fraud-Monitoring/blob/main/01_database_schema.sql)
-
 
 ## Synthetic Data Generation
+
+**[Download the Synthetic Database Tables](https://github.com/QuintessaWashington/Transaction-Risk-Scorecard-Fraud-Monitoring/blob/main/Database_Tables.zip)**
 
 One of the primary goals of this project was demonstrating the ability
 to create realistic financial data when production banking data is
@@ -121,12 +123,14 @@ Examples include:
 -   Fraud probability modeling
 
 This approach creates a dataset that more closely resembles a production fraud environment while protecting sensitive financial information.
-**[Download the Synthetic Database Tables](https://github.com/QuintessaWashington/Transaction-Risk-Scorecard-Fraud-Monitoring/blob/main/Database_Tables.zip)**
+
 
 ## Exploratory Data Analysis
 
 The project begins with SQL based exploratory analysis to understand
 customer behavior and identify potential fraud patterns.
+
+[View exploratory analysis queries](https://github.com/QuintessaWashington/Transaction-Risk-Scorecard-Fraud-Monitoring/blob/main/02_eda_quries.sql)
 
 Questions explored include:
 
@@ -144,6 +148,7 @@ Questions explored include:
 
 These findings informed the design of the fraud indicators used later in
 the project.
+
 
 ## Fraud Indicator Engineering
 
