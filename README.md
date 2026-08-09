@@ -88,6 +88,9 @@ Monitoring Dashboard
 |Total Transaction Volume | $20.8 Million | 
 |Industry | Buy Now, Pay Later (BNPL) |
 
+[View database creation queries](https://github.com/QuintessaWashington/Transaction-Risk-Scorecard-Fraud-Monitoring/blob/main/01_database_schema.sql)
+
+
 ## Synthetic Data Generation
 
 One of the primary goals of this project was demonstrating the ability
