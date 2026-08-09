@@ -192,6 +192,8 @@ combined into a transparent, explainable fraud decision framework.
 
 ### Transaction Risk Scorecard Evaluation Dashboard
 
+[View the Interactive Dashboard on Tableau Public](https://public.tableau.com/views/TransactionRiskScorecardEvaluation/TransactionRiskScorecardEvaluation?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 Provides leadership with high-level fraud performance metrics,
 including:
 
@@ -207,7 +209,11 @@ including:
 
 -   Operational KPIs
 
+  
+
 ### Fraud Risk Monitoring Dashboard
+
+[View the Interactive Dashboard on Tableau Public](https://public.tableau.com/views/RiskMonitoringDashboard_17849507629950/NovaPayFraudRiskMonitoringDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 Designed for fraud analysts to monitor high-risk transactions in real
 time.
