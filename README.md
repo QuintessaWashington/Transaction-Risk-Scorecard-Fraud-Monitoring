@@ -1,7 +1,6 @@
-# Transaction Risk and Fraud Monitoring for Buy Now, Pay Later (BNPL) Company with
-(Excel/SQL/Tableau)
+##  Transaction Risk and Fraud Monitoring for Buy Now, Pay Later (BNPL) Company with (Excel/SQL/Tableau)
 
-## Author: Quintessa Washington
+Author: Quintessa Washington
 
 ## About This Project
 
@@ -12,7 +11,7 @@ business communication. While the company and data are fictional, the
 methodologies reflect real-world fraud analytics concepts used within
 the financial services industry.
 
-Executive Summary
+## Executive Summary
 
 Financial institutions process millions of transactions every day,
 making it impossible for fraud analysts to manually review every
@@ -24,21 +23,21 @@ This project demonstrates the design and development of an end-to-end
 Fraud Indicator Reporting System for NovaPay, a fictional Buy Now, Pay
 Later (BNPL) financial technology company.
 
-Business Objective
+## Business Objective
 
-Design and deliver a fraud analytics solution capable of:
+-   Design and deliver a fraud analytics solution capable of:
 
-Detecting potentially fraudulent transactions
+-   Detecting potentially fraudulent transactions
 
-Identifying high-risk behavioral patterns
+-   Identifying high-risk behavioral patterns
 
-Prioritizing investigations using transaction risk scores
+-   Prioritizing investigations using transaction risk scores
 
-Supporting both strategic and operational fraud decisions
+-   Supporting both strategic and operational fraud decisions
 
-Demonstrating an end-to-end fraud analytics workflow
+-   Demonstrating an end-to-end fraud analytics workflow
 
-Project Highlights
+## Project Highlights
 
 -   Designed a fictional BNPL company (NovaPay) to simulate a real-world
     fraud analytics engagement.
@@ -59,15 +58,15 @@ Project Highlights
 -   Built interactive Tableau dashboards for fraud monitoring and
     executive reporting.
 
-Project Workflow
+## Project Workflow
 
-Business Requirements -\> Synthetic Data Generation -\> PostgreSQL
+Business Requirements -> Synthetic Data Generation -\> PostgreSQL
 Database Design -\> SQL Exploratory Data Analysis -\> Fraud Indicator
 Engineering -\> Transaction Risk Score Engine -\> Risk Classification
 -\> Transaction Risk Scorecard Evaluation Dashboard -\> Fraud Risk
 Monitoring Dashboard
 
-Tools & Techniques
+## Tools & Techniques
 
 -   PostgreSQL: Database Management
 
@@ -79,23 +78,17 @@ Tools & Techniques
 
 -   GitHub: Documentation
 
-Dataset Overview
+## Dataset Overview
 
-| Metric \| Value \|
+|Metric | Value|
+|--- | ---|
+|Customers| 8,325 |
+|Transactions | 81,758 | 
+|Date Range | Aug 2015 - Jun 2026 | 
+|Total Transaction Volume | $20.8 Million | 
+|Industry | Buy Now, Pay Later (BNPL) |
 
-| --- \| --- \|
-
-| Customers \| 8,325 \|
-
-| Transactions \| 81,758 \|
-
-| Date Range \| Aug 2015 -- Jun 2026 \|
-
-| Total Transaction Volume \| \$20.8 Million \|
-
-| Industry \| Buy Now, Pay Later (BNPL) \|
-
-Synthetic Data Generation
+## Synthetic Data Generation
 
 One of the primary goals of this project was demonstrating the ability
 to create realistic financial data when production banking data is
@@ -106,137 +99,132 @@ rules rather than purely random values.
 
 Examples include:
 
-Customer lifecycle simulation
+-   Customer lifecycle simulation
 
-Account age calculations
+-   Account age calculations
 
-Transaction velocity
+-   Transaction velocity
 
-Device behavior
+-   Device behavior
 
-Geographic risk
+-   Geographic risk
 
-Merchant risk
+-   Merchant risk
 
-Authentication methods
+-   Authentication methods
 
-Payment outcomes
+-   Payment outcomes
 
-Fraud probability modeling
+-   Fraud probability modeling
 
 This approach creates a dataset that behaves more like a production
 fraud environment while protecting sensitive financial information.
 
-Exploratory Data Analysis
+## Exploratory Data Analysis
 
 The project begins with SQL based exploratory analysis to understand
 customer behavior and identify potential fraud patterns.
 
 Questions explored include:
 
-How many transactions occurred?
+-   How many transactions occurred?
 
-Which days experience the highest fraud activity?
+-   Which days experience the highest fraud activity?
 
-What transaction amounts are most associated with fraud?
+-   What transaction amounts are most associated with fraud?
 
-Which merchant categories present the highest risk?
+-   Which merchant categories present the highest risk?
 
-Which geographic regions require additional monitoring?
+-   Which geographic regions require additional monitoring?
 
-When does fraud most commonly occur?
+-   When does fraud most commonly occur?
 
 These findings informed the design of the fraud indicators used later in
 the project.
 
-Fraud Indicator Engineering
+## Fraud Indicator Engineering
 
 Behavioral indicators were engineered using SQL to identify suspicious
 activity.
 
 Indicators include:
 
-IP Risk
+-   IP Risk
 
-High-Risk Geography
+-   High-Risk Geography
 
-Account Age
+-   Account Age
 
-Authentication Method
+-   Authentication Method
 
-Weekend Activity
+-   Weekend Activity
 
-Transaction Amount
+-   Transaction Amount
 
-Transaction Velocity
+-   Transaction Velocity
 
-Device Type
+-   Device Type
 
-Payment Status
+-   Payment Status
 
-Transaction Type
+-   Transaction Type
 
 Each indicator contributes to an overall Transaction Risk Score.
 
-Transaction Risk Score Engine
+## Transaction Risk Score Engine
 
 A weighted scoring model was developed to prioritize transactions for
 fraud operations.
 
 Decision Engine
 
-| Risk Score \| Action \|
-
-| --- \| --- \|
-
-| 0--24 \| Approve \|
-
-| 25--49 \| Approve & Monitor \|
-
-| 50--69 \| Manual Review \|
-
-| 70--100 \| Decline \|
+| Risk Score | Action |
+| --- | --- |
+| 0--24 | Approve |
+| 25--49 | Approve & Monitor |
+| 50--69 | Manual Review |
+| 70--100 | Decline |
 
 This approach demonstrates how multiple behavioral indicators can be
 combined into a transparent, explainable fraud decision framework.
 
-Dashboards
+## Dashboards
 
--   Transaction Risk Scorecard Evaluation Dashboard
+### Transaction Risk Scorecard Evaluation Dashboard
 
 Provides leadership with high-level fraud performance metrics,
 including:
 
-Fraud Capture Rate
+-   Fraud Capture Rate
 
-False Positive Rate
+-   False Positive Rate
 
-Total Fraud Exposure
+-   Total Fraud Exposure
 
-Potential Fraud Savings
+-   Potential Fraud Savings
 
-Risk Score Distribution
+-   Risk Score Distribution
 
-Operational KPIs
+-   Operational KPIs
 
--   Fraud Risk Monitoring Dashboard
+### Fraud Risk Monitoring Dashboard
 
 Designed for fraud analysts to monitor high-risk transactions in real
 time.
 
 Features include:
 
-Decision Tier Filters
+-   Decision Tier Filters
 
-Transaction Drilldowns
+-   Transaction Drilldowns
 
-High-Risk Transaction Queue
+-   High-Risk Transaction Queue
 
-Fraud Trend Monitoring
+-   Fraud Trend Monitoring
 
-Operational Investigation Support
+-   Operational Investigation Support
 
-Business Value
+## Business Value
 
 This project demonstrates how fraud analytics extends beyond reporting
 by transforming raw transaction data into actionable business
@@ -245,30 +233,15 @@ intelligence.
 The workflow mirrors the responsibilities of a Fraud Analytics
 professional responsible for:
 
-Fraud detection strategy
+-   Fraud detection strategy
 
-Risk segmentation
+-   Risk segmentation
 
-Operational reporting
+-   Operational reporting
 
-Decision support
+-   Decision support
 
-Executive communication
+-   Executive communication
 
-Repository Structure
 
-``` text
-NovaPay-Fraud-Analytics/
 
-- Data/
-
-- SQL/
-
-- Tableau/
-
-- Images/
-
-- Documentation/
-
-- README.md
-```
