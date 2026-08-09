@@ -25,7 +25,7 @@ Later (BNPL) financial technology company.
 
 ## Business Objective
 
--   Design and deliver a fraud analytics solution capable of:
+Design and deliver a fraud analytics solution capable of:
 
 -   Detecting potentially fraudulent transactions
 
