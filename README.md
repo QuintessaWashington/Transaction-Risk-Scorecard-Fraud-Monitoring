@@ -1,9 +1,9 @@
-#Transaction Risk and Fraud Monitoring for Buy Now, Pay Later (BNPL) Company with
+# Transaction Risk and Fraud Monitoring for Buy Now, Pay Later (BNPL) Company with
 (Excel/SQL/Tableau)
 
-##Author: Quintessa Washington
+## Author: Quintessa Washington
 
-##About This Project
+## About This Project
 
 This portfolio project was developed to demonstrate practical fraud
 analytics skills across the complete analytics lifecycle from data
