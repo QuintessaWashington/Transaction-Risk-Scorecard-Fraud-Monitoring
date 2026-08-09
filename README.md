@@ -181,7 +181,7 @@ Each indicator contributes to an overall Transaction Risk Score.
 
 ## Transaction Risk Scorecard
 
-[View transaction risk scorecard_table query](https://github.com/QuintessaWashington/Transaction-Risk-Scorecard-Fraud-Monitoring/blob/main/03_risk_scorecard_table.sql)
+[View transaction risk scorecard table query](https://github.com/QuintessaWashington/Transaction-Risk-Scorecard-Fraud-Monitoring/blob/main/03_risk_scorecard_table.sql)
 
 A weighted scoring model was developed to prioritize transactions for
 fraud operations.
@@ -194,6 +194,8 @@ Decision Engine
 | 25--49 | Approve & Monitor |
 | 50--69 | Manual Review |
 | 70--100 | Decline |
+
+[View decision engine query](https://github.com/QuintessaWashington/Transaction-Risk-Scorecard-Fraud-Monitoring/blob/main/04_decision_engine.sql)
 
 This approach demonstrates how multiple behavioral indicators can be
 combined into a transparent, explainable fraud decision framework.
