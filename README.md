@@ -190,10 +190,10 @@ Decision Engine
 
 | Risk Score | Action |
 | --- | --- |
-| 0--24 | Approve |
-| 25--49 | Approve & Monitor |
-| 50--69 | Manual Review |
-| 70--100 | Decline |
+| 0-24 | Approve |
+| 25-49 | Approve & Monitor |
+| 50-69 | Manual Review |
+| 70-100 | Decline |
 
 [View decision engine query](https://github.com/QuintessaWashington/Transaction-Risk-Scorecard-Fraud-Monitoring/blob/main/04_decision_engine.sql)
 
